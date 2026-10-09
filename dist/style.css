@@ -47,3 +47,5 @@ html{scrollbar-gutter:stable}
 @media(max-width:620px){.intro{padding-top:55px;padding-bottom:55px}.intro>.eyebrow{margin-bottom:24px}.intro>h2{white-space:normal;max-width:340px;font-size:43px;margin-bottom:28px}.intro-portrait img{max-width:370px}.intro-story{margin-top:28px}}
 @media(prefers-reduced-motion:reduce){.scroll-motion{translate:none!important;scale:none!important}}
 .contact-bottom .contact-location{margin-top:14px;font-size:18px}
+/* Keep navigation available while browsing the portfolio. */
+header{position:sticky;top:0;z-index:20}
