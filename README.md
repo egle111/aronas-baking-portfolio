@@ -4,7 +4,7 @@ Live website: https://egle111.github.io/aronas-baking-portfolio/
 
 For a local preview, open `dist/index.html` directly in a browser, or serve the `dist` folder with a local web server.
 
-Photos and product descriptions come from the supplied PowerPoint. The decorative illustration is original generated artwork, not a photograph of Aronas's baking. The gallery includes thirteen bakes, updated photographs supplied by the user, and three short baking videos. The website uses no remote fonts, analytics or external services.
+Photos and product descriptions come from the supplied PowerPoint. The decorative illustration is original generated artwork, not a photograph of Aronas's baking. The gallery includes twenty-one bakes, updated photographs supplied by the user, and three short baking videos. The website uses no remote fonts, analytics or external services.
 
 Aronas’s name, third year bachelor’s degree in Pastry and Baking at TU Dublin, and Dublin location were confirmed by the user. Contact details came from the supplied PowerPoint. The user explicitly approved public publication of the portrait and personal details.
 

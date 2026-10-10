@@ -49,8 +49,8 @@ html{scrollbar-gutter:stable}
 .contact-bottom .contact-location{margin-top:14px;font-size:18px}
 /* Keep navigation available while browsing the portfolio. */
 header{position:sticky;top:0;z-index:20}
-.bread-views{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.bread-views .photo img{aspect-ratio:3/5;object-fit:cover}
+.bake-views{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.bake-views .photo img{aspect-ratio:3/5;object-fit:cover}
 .videos{padding:0 5% 90px;background:var(--cream)}
 .video-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin-top:38px}
 .video-gallery figure{margin:0}
