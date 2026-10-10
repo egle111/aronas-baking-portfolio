@@ -38,7 +38,7 @@ dialog.addEventListener('close', () => { document.body.classList.remove('modal-o
 // Scroll-linked movement stays visible and follows the visitor's own scroll speed.
 const scrollScenes = [
   ...[...document.querySelectorAll('.intro, .section-heading, .contact')].map(scene => ({ scene, target: scene.querySelector('h2') || scene })),
-  ...bakes.map(scene => ({ scene, target: scene.querySelector('.photo') })),
+  ...[...document.querySelectorAll('.bake .photo')].map(target => ({ scene: target.closest('.bake'), target })),
   { scene: document.querySelector('.intro-portrait'), target: document.querySelector('.intro-portrait img') }
 ];
 scrollScenes.forEach(({ target }) => target.classList.add('scroll-motion'));
@@ -68,3 +68,7 @@ reducedMotion.addEventListener('change', () => {
   }
   scheduleScrollMotion();
 });
+
+// Pause other clips when a visitor starts a video.
+const videos = [...document.querySelectorAll('video')];
+videos.forEach(video => video.addEventListener('play', () => videos.forEach(other => { if (other !== video) other.pause(); })));
